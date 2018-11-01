@@ -36,6 +36,7 @@ function install_thirdparty {
 		'install_rvm'           'Ruby Version Manager (RVM)' \
 		'install_sublime_text'  'Sublime Text 3' \
 		'install_omf'           'Oh My Fish(OMF) framework with theme "bobthefish"' \
+		'install_fzf'           'Fuzzy Finder(FZF)' \
 		3>&1 1>&2 2>&3)
 
 	# check exit status
