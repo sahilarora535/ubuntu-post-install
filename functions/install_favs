@@ -22,3 +22,9 @@ function install_favs_utils {
 function install_codecs {
 	install_package "multimedia codecs" "ubuntu-restricted-extras" main
 }
+
+# Install preferred drivers
+function install_drivers {
+	# Update the list of packages in 'data/drivers.list' to suit your preferences
+	install_from_list "preferred drivers" "drivers" main
+}

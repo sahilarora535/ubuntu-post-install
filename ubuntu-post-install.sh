@@ -43,6 +43,7 @@ function main {
 		'install_favs_dev'      'Install preferred development tools' \
 		'install_favs_utils'    'Install preferred utilities' \
 		'install_gnome'         'Install preferred GNOME software' \
+		'install_drivers'       'Install preferred drivers' \
 		'install_codecs'        'Install multimedia codecs' \
 		'install_fonts'         'Install additional fonts' \
 		'install_snap_apps'     'Install Snap applications' \
